@@ -1,0 +1,107 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Dinamicheska_ustoichivost/1.0.0": {
+        "dependencies": {
+          "OxyPlot.Core": "2.1.2",
+          "OxyPlot.Wpf": "2.1.2",
+          "SciChart": "8.3.0.28019"
+        },
+        "runtime": {
+          "Dinamicheska_ustoichivost.dll": {}
+        }
+      },
+      "OxyPlot.Core/2.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/OxyPlot.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.0"
+          }
+        }
+      },
+      "OxyPlot.Wpf/2.1.2": {
+        "dependencies": {
+          "OxyPlot.Core": "2.1.2",
+          "OxyPlot.Wpf.Shared": "2.1.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OxyPlot.Wpf.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.0"
+          }
+        }
+      },
+      "OxyPlot.Wpf.Shared/2.1.2": {
+        "dependencies": {
+          "OxyPlot.Core": "2.1.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OxyPlot.Wpf.Shared.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.0"
+          }
+        }
+      },
+      "SciChart/8.3.0.28019": {
+        "runtime": {
+          "lib/net6.0-windows7.0/SciChart.Charting.dll": {
+            "assemblyVersion": "8.3.0.28019",
+            "fileVersion": "8.3.0.28019"
+          },
+          "lib/net6.0-windows7.0/SciChart.Core.dll": {
+            "assemblyVersion": "8.3.0.28019",
+            "fileVersion": "8.3.0.28019"
+          },
+          "lib/net6.0-windows7.0/SciChart.Data.dll": {
+            "assemblyVersion": "8.3.0.28019",
+            "fileVersion": "8.3.0.28019"
+          },
+          "lib/net6.0-windows7.0/SciChart.Drawing.dll": {
+            "assemblyVersion": "8.3.0.28019",
+            "fileVersion": "8.3.0.28019"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dinamicheska_ustoichivost/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OxyPlot.Core/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/BuPL1Wa7ZhpKA2DBe72md+S8PgIHF+UP/NsKfO9BiheXnbns1/tqS7s2MWIR1xFy5i+PWVC67KziGPY48mNgA==",
+      "path": "oxyplot.core/2.1.2",
+      "hashPath": "oxyplot.core.2.1.2.nupkg.sha512"
+    },
+    "OxyPlot.Wpf/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-udX9T1YC5BnnTZkVSNgJqvzXLaBcZDYG32YHWlDELk1UDWQeJi0Z2jBLoIiv4hcW16N4ptYO5cGC3e8m5/z0hw==",
+      "path": "oxyplot.wpf/2.1.2",
+      "hashPath": "oxyplot.wpf.2.1.2.nupkg.sha512"
+    },
+    "OxyPlot.Wpf.Shared/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Cj7UET7AS5gVf77+avKG+PzaKQhTdqRYbyBTCPWW9JEbAsojpNdLICjVXO+5o/HP+DjshZJ6oCFw8eyRnHtCA==",
+      "path": "oxyplot.wpf.shared/2.1.2",
+      "hashPath": "oxyplot.wpf.shared.2.1.2.nupkg.sha512"
+    },
+    "SciChart/8.3.0.28019": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cz9n5RYecKL5yCCT51s90lC97Cq7h29XLHJf9yTqx5/B4Iw1bPv4Z9kmBJ8S2eeExWP0QyN3GYcXbQWk0vElRw==",
+      "path": "scichart/8.3.0.28019",
+      "hashPath": "scichart.8.3.0.28019.nupkg.sha512"
+    }
+  }
+}
